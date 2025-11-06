@@ -1,0 +1,98 @@
+  :root {
+            --maroon-dark: #af5500;
+            --maroon-medium: #692800;
+            --maroon-light: #4d1d00;
+            --maroon-very-light: #f5e6e6;
+            --gold-accent: #f58b00;
+        }
+        body {
+            background-color: var(--maroon-very-light);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(https://i.pinimg.com/originals/1b/63/78/1b6378be8a1f7458208b955b87838d1f.gif);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .container {
+            max-width: 600px;
+            opacity: 0.67;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(128, 0, 0, 0.1);
+        }
+        h1 {
+            color: var(--maroon-dark);
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        h2 {
+            color: var(--maroon-medium);
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .form-control {
+            margin-bottom: 15px;
+            border: 1px solid var(--maroon-medium);
+        }
+        .form-control:focus {
+            border-color: var(--maroon-dark);
+            box-shadow: 0 0 0 0.25rem rgba(128, 0, 0, 0.25);
+        }
+        .btn-primary {
+            background-color: var(--maroon-dark);
+            border-color: var(--maroon-dark);
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .btn-primary:hover {
+            background-color: var(--maroon-medium);
+            border-color: var(--maroon-medium);
+        }
+        #student_info {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--maroon-dark);
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--maroon-very-light);
+            border-left: 5px solid var(--maroon-dark);
+            border-radius: 5px;
+        }
+        #summary {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+        }
+        #output {
+            font-size: 1.3rem;
+            color: var(--maroon-dark);
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: rgba(255, 215, 0, 0.2);
+            border-radius: 5px;
+        }
+        .input-group-text {
+            background-color: var(--maroon-dark);
+            color: white;
+            border: 1px solid var(--maroon-dark);
+            min-width: 80px; 
+        }
+        .grades-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .grade-input-group {
+            margin-bottom: 15px;
+        }
